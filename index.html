@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Sintayehu Desalegn Hadero — Cyber Threat Intelligence Analyst & MERN Full-Stack Developer, Addis Ababa, Ethiopia." />
+<title>Sintayehu Desalegn | CTI Analyst &amp; Full-Stack Developer</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#home" class="navbar__logo">
+        <span class="navbar__logo-prompt">sintayehu</span><span class="navbar__logo-cursor"></span>
+      </a>
+
+      <nav class="navbar__links" id="navLinks">
+        <a href="#home"><span class="navbar__index"></span>Home</a>
+        <a href="#about"><span class="navbar__index"></span>About</a>
+        <a href="#skills"><span class="navbar__index"></span>Skills</a>
+        <a href="#projects"><span class="navbar__index"></span>Cases</a>
+        <a href="#contact"><span class="navbar__index"></span>Contact</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg id="iconMoon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.5" /><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8l1.8-1.8M18 6l1.8-1.8" stroke-linecap="round" /></svg>
+          <svg id="iconSun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="display:none"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z" stroke-linecap="round" stroke-linejoin="round" /></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+      <div class="hero__scanlines" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <!-- <div class="report-tag">
+          <span class="report-tag__dot"></span>
+          CASE FILE // 2026-SDH-001 &nbsp;&middot;&nbsp; STATUS: ACTIVE
+        </div> -->
+
+        <h1 class="hero__name">Sintayehu Desalegn <span class="hero__name-last">Hadero</span></h1>
+
+        <p class="hero__role">
+          <span class="hero__role-caret">&gt;</span> <span id="typedRole"></span><span class="hero__cursor">_</span>
+        </p>
+
+      <p class="hero__summary">
+      Monitoring security events, investigating indicators of compromise,
+      mapping adversary behavior using the <strong>MITRE ATT&amp;CK</strong>
+      framework, and building secure full-stack applications with the
+  <strong>MERN Stack</strong>. Based in Addis Ababa, Ethiopia.
+</p>
+
+        <div class="hero__ctas">
+          <a href="#projects" class="btn btn--primary">View Case Files</a>
+          <a href="#contact" class="btn btn--ghost">Contact Me</a>
+        </div>
+
+        <dl class="hero__meta">
+          <div><dt>LOCATION</dt><dd>Addis Ababa, ET</dd></div>
+          <div><dt>CLEARANCE</dt><dd>BSc in Computer Science </dd></div>
+          <div><dt>EXPERIENCE</dt><dd>1.5+ yrs CTI</dd></div>
+          <div><dt>LANGUAGES</dt><dd>EN &middot; AM</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+<section id="about" class="section">
+  <div class="container">
+    <h2 class="section__heading"> About Me</h2>
+
+    <div class="about__grid">
+      <div class="about__text">
+        <p>
+          I'm a <strong>Security Operations Center (SOC) Analyst</strong> with over a year of hands-on experience in security monitoring, threat detection, incident investigation, and Cyber Threat Intelligence (CTI). At
+          <strong>DALAS Tech</strong>, I monitor security events, investigate alerts, analyze indicators of compromise (IOCs), and identify attacker behavior through network traffic analysis and OSINT investigations. I also produce technical security reports and map adversary tactics, techniques, and procedures (TTPs) using the
+          <strong>MITRE ATT&amp;CK</strong> framework.
+        </p>
+
+        <p>
+          My expertise includes SIEM monitoring, log analysis, threat hunting, malware analysis, network traffic investigation, and incident response. I'm experienced with security tools such as
+          <strong>Wazuh</strong>, <strong>Wireshark</strong>, <strong>Zeek</strong>, <strong>Suricata</strong>, <strong>MISP</strong>, <strong>TheHive</strong>, <strong>Cortex</strong>, and <strong>VirusTotal</strong> to strengthen detection and response capabilities.
+        </p>
+
+        <p>
+          Alongside cybersecurity, I'm expanding my software development skills by building modern full-stack applications using the
+          <strong>MERN Stack</strong>. I hold a BSc in Computer Science from Jimma University and continuously improve my skills through hands-on labs, CTF challenges, and real-world security research.
+        </p>
+      </div>
+
+      <div class="about__facts panel">
+        <div class="panel__header">
+          <span class="panel__dot panel__dot--amber"></span>my profile
+        </div>
+
+        <ul class="fact-list">
+          <li>
+            <span class="fact-list__key">education</span>
+            <span class="fact-list__val">BSc Computer Science, Jimma University (2021–2024)</span>
+          </li>
+
+          <li>
+            <span class="fact-list__key">gpa</span>
+            <span class="fact-list__val">3.43 / 4.00</span>
+          </li>
+
+          <li>
+            <span class="fact-list__key">certifications</span>
+            <span class="fact-list__val"><ul>
+  <li>
+    <strong>Cisco CCNA</strong>
+    <ul>
+      <li>Switching, Routing, and Wireless Essentials</li>
+      <li>Enterprise Networking, Security, and Automation</li>
+      <li>Introduction to Cybersecurity</li>
+      <li>Introduction to Networks</li>
+      <li>Introduction to Packet Tracer</li>
+      <li>Cisco Get Connected</li>
+    </ul>
+  </li>
+</ul></span>
+          </li>
+
+          <!-- <li>
+            <span class="fact-list__key">platforms</span>
+            <span class="fact-list__val">TryHackMe &middot; Hack The Box &middot; AfricaCERT CTF</span>
+          </li> -->
+
+          <li>
+            <span class="fact-list__key">languages</span>
+            <span class="fact-list__val">English &middot; Amharic </span>
+          </li>
+
+          <li>
+            <span class="fact-list__key">current_role</span>
+            <span class="fact-list__val">CTI Analyst @ INSA</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section section--panel">
+      <div class="container">
+        <h2 class="section__heading"> Skills &amp; Indicators</h2>
+        <p class="section__lead"></p>
+
+        <div class="skills__grid">
+          <div class="skills__card panel">
+            <div class="panel__header"><span class="panel__dot panel__dot--amber"></span>Threat Intelligence &amp; Hunting</div>
+            <div class="tag-list">
+              <span class="tag tag--amber">Threat Intel Analysis</span>
+              <span class="tag tag--amber">Threat Hunting</span>
+              <span class="tag tag--amber">Malware Analysis</span>
+              <span class="tag tag--amber">IOC Analysis</span>
+              <span class="tag tag--amber">OSINT Investigations</span>
+              <span class="tag tag--amber">CTI Reporting</span>
+              <span class="tag tag--amber">MITRE ATT&amp;CK</span>
+              <span class="tag tag--amber">Cyber Kill Chain</span>
+              <span class="tag tag--amber">Pyramid of Pain</span>
+            </div>
+          </div>
+
+          <div class="skills__card panel">
+            <div class="panel__header"><span class="panel__dot panel__dot--cyan"></span>SIEM &amp; Security Tooling</div>
+            <div class="tag-list">
+              <span class="tag tag--cyan">Wazuh</span>
+              <span class="tag tag--cyan">Splunk</span>
+              <span class="tag tag--cyan">Elastic Security (ELK)</span>
+              <span class="tag tag--cyan">Microsoft Sentinel</span>
+              <span class="tag tag--cyan">MISP</span>
+              <span class="tag tag--cyan">Cortex</span>
+              <span class="tag tag--cyan">TheHive</span>
+              <span class="tag tag--cyan">VirusTotal</span>
+              <span class="tag tag--cyan">AbuseIPDB</span>
+              <span class="tag tag--cyan">Shodan</span>
+              <span class="tag tag--cyan">URLhaus</span>
+              <span class="tag tag--cyan">Wireshark</span>
+              <span class="tag tag--cyan">Zeek</span>
+              <span class="tag tag--cyan">Suricata</span>
+              <span class="tag tag--cyan">Snort</span>
+              <span class="tag tag--cyan">YARA</span>
+              <span class="tag tag--cyan">Sigma</span>
+              <span class="tag tag--cyan">OpenCTI</span>
+              <span class="tag tag--cyan">theHarvester</span>
+              <span class="tag tag--cyan">GHunt</span>
+              <span class="tag tag--cyan">Nmap</span>
+              <span class="tag tag--cyan">CyberChef</span>
+            </div>
+          </div>
+
+          <div class="skills__card panel">
+            <div class="panel__header"><span class="panel__dot panel__dot--green"></span>Networking</div>
+            <div class="tag-list">
+              <span class="tag tag--green">TCP/IP</span>
+              <span class="tag tag--green">Routing &amp; Switching</span>
+              <span class="tag tag--green">DNS</span>
+              <span class="tag tag--green">DHCP</span>
+              <span class="tag tag--green">VLANs</span>
+              <span class="tag tag--green">VPN Fundamentals</span>
+              <span class="tag tag--green">Network Security</span>
+              <span class="tag tag--green">Packet Tracer</span>
+            </div>
+          </div>
+
+          <div class="skills__card panel">
+            <div class="panel__header"><span class="panel__dot panel__dot--violet"></span>Full-Stack Development (MERN)</div>
+            <div class="tag-list">
+              <span class="tag tag--violet">MongoDB</span>
+              <span class="tag tag--violet">Express.js</span>
+              <span class="tag tag--violet">React</span>
+              <span class="tag tag--violet">Node.js</span>
+              <span class="tag tag--violet">JavaScript</span>
+              <span class="tag tag--violet">Python</span>
+              <span class="tag tag--violet">Java</span>
+              <span class="tag tag--violet">PHP</span>
+              <span class="tag tag--violet">C++</span>
+              <span class="tag tag--violet">HTML</span>
+              <span class="tag tag--violet">CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS / CASE FILES ===== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section__heading"> Case Files</h2>
+        <p class="section__lead">Selected investigations and builds.</p>
+
+        <div class="cases__grid">
+          <article class="case-card panel">
+            <div class="case-card__top">
+              <span class="case-card__id">CASE-001</span>
+              <span class="case-card__sev sev--high">High</span>
+            </div>
+            <h3 class="case-card__title">Malware Incident Analysis</h3>
+            <p class="case-card__summary">Investigated live malware incidents end to end — correlating indicators of compromise across multiple threat intel sources and producing structured CTI reports with clear mitigation steps for the security team.</p>
+            <div class="tag-list tag-list--compact">
+              <span class="tag tag--outline">Malware Analysis</span>
+              <span class="tag tag--outline">IOC Correlation</span>
+              <span class="tag tag--outline">MITRE ATT&amp;CK</span>
+              <span class="tag tag--outline">CTI Reporting</span>
+            </div>
+          </article>
+
+          <article class="case-card panel">
+            <div class="case-card__top">
+              <span class="case-card__id">CASE-002</span>
+              <span class="case-card__sev sev--medium">Medium</span>
+            </div>
+            <h3 class="case-card__title">Threat Intelligence Research (OSINT)</h3>
+            <p class="case-card__summary">Ran OSINT investigations against malicious infrastructure, enriching indicators through public threat intel platforms and mapping attacker behavior to MITRE ATT&amp;CK tactics and techniques.</p>
+            <div class="tag-list tag-list--compact">
+              <span class="tag tag--outline">OSINT</span>
+              <span class="tag tag--outline">Threat Enrichment</span>
+              <span class="tag tag--outline">MITRE ATT&amp;CK</span>
+              <span class="tag tag--outline">Shodan</span>
+            </div>
+          </article>
+
+          <article class="case-card panel">
+            <div class="case-card__top">
+              <span class="case-card__id">CASE-003</span>
+              <span class="case-card__sev sev--high">High</span>
+            </div>
+            <h3 class="case-card__title">Network Traffic Analysis</h3>
+            <p class="case-card__summary">Analyzed packet captures in Wireshark to investigate suspicious network activity, including DDoS-related traffic, identifying anomalies and malicious communication patterns.</p>
+            <div class="tag-list tag-list--compact">
+              <span class="tag tag--outline">Wireshark</span>
+              <span class="tag tag--outline">PCAP Analysis</span>
+              <span class="tag tag--outline">DDoS</span>
+              <span class="tag tag--outline">Network Security</span>
+            </div>
+          </article>
+
+          <article class="case-card panel">
+            <div class="case-card__top">
+              <span class="case-card__id">CASE-004</span>
+              <span class="case-card__sev sev--featured">Featured</span>
+            </div>
+            <h3 class="case-card__title">Voice to Sign Language Translator</h3>
+            <p class="case-card__summary">Led development of an accessibility-focused application translating spoken voice into sign language in real time — recognized among the Top 5 projects in the Faculty of Computing and Informatics.</p>
+            <div class="tag-list tag-list--compact">
+              <span class="tag tag--outline">Full-Stack</span>
+              <span class="tag tag--outline">Accessibility</span>
+              <span class="tag tag--outline">React</span>
+              <span class="tag tag--outline">Node.js</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section section--panel">
+      <div class="container">
+        <h2 class="section__heading"> Contact</h2>
+        <p class="section__lead">Open to CTI analyst roles, security team collaborations, and full-stack projects. Reach out through any channel below.</p>
+
+        <div class="contact__grid">
+          <div class="panel contact__card">
+            <div class="panel__header"><span class="panel__dot panel__dot--cyan"></span>contacts</div>
+            <ul class="contact__list">
+              <li>
+                <a href="mailto:sintayehudesalegn123@gmail.com">
+                  <span class="contact__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3.5 6.5 8.5 6.5 8.5-6.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+                  <span class="contact__text"><span class="contact__label">Email</span><span class="contact__value">sintayehudesalegn123@gmail.com</span></span>
+                  <span class="contact__arrow">&rarr;</span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+251953774526">
+                  <span class="contact__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8Z" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+                  <span class="contact__text"><span class="contact__label">Phone</span><span class="contact__value">+251 953 774 526</span></span>
+                  <span class="contact__arrow">&rarr;</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/" target="_blank" rel="noreferrer">
+                  <span class="contact__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.5 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.34 1.12 2.91.86.09-.66.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .28.18.6.69.5A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z" /></svg></span>
+                  <span class="contact__text"><span class="contact__label">GitHub</span><span class="contact__value">github.com/sintayehu-desalegn</span></span>
+                  <span class="contact__arrow">&rarr;</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/" target="_blank" rel="noreferrer">
+                  <span class="contact__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.6h.05c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.7c0-1.36-.02-3.1-1.9-3.1-1.9 0-2.2 1.48-2.2 3v5.8h-4V9Z" /></svg></span>
+                  <span class="contact__text"><span class="contact__label">LinkedIn</span><span class="contact__value">linkedin.com/in/sintayehu-desalegn</span></span>
+                  <span class="contact__arrow">&rarr;</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="panel contact__location">
+            <div class="panel__header"><span class="panel__dot panel__dot--amber"></span>location</div>
+            <div class="contact__location-body">
+              <p class="contact__coords">09.0192&deg; N, 38.7525&deg; E</p>
+              <p>Addis Ababa, Ethiopia</p>
+              <p class="contact__note">Available for remote work &amp; on-site opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p><span class="footer__mono">// EOF</span> &copy; <span id="year"></span> Sintayehu Desalegn Hadero. Built with HTML, CSS &amp; JavaScript.</p>
+      <a href="#home" class="footer__top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
