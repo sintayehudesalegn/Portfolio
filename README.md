@@ -13,6 +13,7 @@ Threat intelligence research using OSINT
 Network traffic analysis in Wireshark
 Voice to Sign Language Translator, a project that placed in the top 5 in the Faculty of Computing and Informatics
 Contact: sintayehudesalegn123@gmail.com, https://sintayehudesalegn.github.io/Portfolio/
+
 Built with
 
 Plain HTML, CSS and JavaScript. No framework and no build step.
